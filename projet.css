@@ -1,0 +1,60 @@
+body {
+	box-sizing: border-box;
+}
+
+/* Carousel */
+
+.carousel-inner {
+	text-align: center;
+	padding: 0;
+	margin: 0;
+}
+
+/* Images */
+
+img {
+	width: 100%;
+	height: auto;
+}
+
+/* Navbar */
+
+nav  li{
+	background-color: white;
+	opacity: 1;
+
+}
+
+nav li a {
+	color: grey;
+	font-size: 14px;
+}
+
+nav{
+	background-color: white;
+	opacity: 0.8;
+}
+
+nav li:hover{
+	transition:0.3s;
+	color: pink;
+}
+
+nav li a:hover{
+	color: white;
+}
+
+/* Textes */
+
+.title {
+	margin-top: 70px;
+}
+
+p {
+	font-family: 'Oswald', sans-serif;
+	font-size: 3em;
+	text-align: center;
+	height: 200px;
+	margin: 0 auto;
+	vertical-align: middle;
+}
