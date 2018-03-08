@@ -1,0 +1,93 @@
+body {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+/* Carousel */
+
+.carousel-inner {
+	text-align: center;
+	padding: 0;
+	margin: 0;
+}
+
+.carousel-item {
+	width: auto;
+	height: 35vw;
+}
+
+/* Images */
+
+img {
+	width: 100%;
+	height: auto;
+	max-height: 100%;
+}
+
+/* Navbar */
+
+.nav-link {
+	font-size: 22px;
+	font-family: 'Bitter', serif;
+}
+
+nav  li{
+	background-color: white;
+	opacity: 1;
+
+}
+
+nav li a {
+	color: grey;
+	font-size: 14px;
+}
+
+nav{
+	background-color: white;
+	opacity: 0.8;
+}
+
+nav li:hover{
+	transition:0.3s;
+	color: pink;
+}
+
+nav li a:hover{
+	color: white;
+}
+
+/* Textes */
+
+.title {
+	margin-top: 70px;
+	font-size: 3em;
+	height: 200px;
+	text-align: center;
+	font-family: 'Oswald', sans-serif;
+}
+
+p {
+	font-size: 1em;
+	text-align: justify;
+	margin: 0 auto;
+	vertical-align: middle;
+}
+
+.intro {
+	font-family: 'Bitter', serif;
+	font-size: 1.5em;
+	margin: 50px 5px;
+}
+
+
+/* Footer */
+footer{
+	font-size: 1em;
+	color: white;
+}
+
+.footer-bottom{
+  background: grey;
+  height: 100px;
+}
