@@ -18,6 +18,9 @@ img {
 }
 
 /* Navbar */
+.container{
+	background-color: white;
+}
 
 nav  li{
 	background-color: white;
