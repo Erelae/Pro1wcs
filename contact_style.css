@@ -1,0 +1,41 @@
+h1
+{
+font-family: 'Oswald', sans-serif;
+font-size: 16px;
+text-align: center;
+color: grey;	
+}
+
+.titre
+{
+	margin-bottom:175px;
+}
+
+
+
+
+.form-group
+{
+	
+	margin: 15px;
+}
+
+
+label{
+	font-family: 'Oswald', sans-serif;
+	font-size: 14px;
+	padding-left : 5px;
+}
+
+form .btn-primary{
+	background-color: grey;
+	border-color: grey;
+ }
+
+.btn{ 
+margin-bottom: 15px;
+border-radius: 5em;
+vertical-align: middle;
+padding:5px 5px;
+
+}
