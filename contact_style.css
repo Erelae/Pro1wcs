@@ -1,3 +1,10 @@
+body {
+	background-image: url"(https://www.u-cergy.fr/_contents/ametys-internal%253Asites/www/ametys-internal%253Acontents/histoire-actualite/_metadata/illustration/image/Banquedimages-toureiffelpari.jpg?objectId=defaultWebContent%3A%2F%2F6d0c2a5f-cc6c-495e-9628-bfa20ca8291b)";
+}
+
+
+
+
 h1
 {
 font-family: 'Oswald', sans-serif;
@@ -8,7 +15,7 @@ color: grey;
 
 .titre
 {
-	margin-bottom:175px;
+	margin-bottom:200px;
 }
 
 
@@ -23,7 +30,7 @@ color: grey;
 
 label{
 	font-family: 'Oswald', sans-serif;
-	font-size: 14px;
+	font-size: 16px;
 	padding-left : 5px;
 }
 
@@ -38,4 +45,36 @@ border-radius: 5em;
 vertical-align: middle;
 padding:5px 5px;
 
+}
+
+/* SPACE-DIV */
+.space-div {
+	height: 250px;
+}
+
+/* FOOTER */
+
+.py-2{
+	padding:0;
+}
+
+
+
+footer{ 
+  background: #343a40;
+  opacity: 0.8;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  z-index:1;
+}
+
+.ion-social-twitter, .ion-social-facebook, .ion-social-instagram {
+font-size: 22px;
+color: black;
+position: relative;
+/*left: 50vw;*/
+letter-spacing: 1em;
+text-align: center;
+z-index: 2;
 }
