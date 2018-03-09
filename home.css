@@ -1,0 +1,101 @@
+body {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+/* PAGE 1 - ACCUEIL */
+
+/* CAROUSEL */
+
+.carousel-inner {
+	text-align: center;
+	padding: 0;
+	margin: 0;
+}
+
+.carousel-item {
+	width: auto;
+	height: 35vw;
+}
+
+.carousel-slide {
+}
+
+
+/* IMAGES */
+
+img {
+	width: 100%;
+	height: auto;
+	max-height: 100%;
+}
+
+/* NAVBAR */
+
+.nav-link {
+	font-size: 22px;
+	font-family: 'Bitter', serif;
+}
+
+nav  li{
+	background-color: white;
+	opacity: 1;
+
+}
+
+nav li a {
+	color: grey;
+	font-size: 14px;
+}
+
+nav{
+	background-color: white;
+	opacity: 0.8;
+}
+
+nav li:hover{
+	transition:0.3s;
+	color: pink;
+}
+
+nav li a:hover{
+	color: white;
+}
+
+/* TEXTES */
+
+.title {
+	margin-top: 50px;
+	font-size: 3em;
+	height: 58px;
+	text-align: center;
+	font-family: 'Oswald', sans-serif;
+}
+
+.intro {
+	margin: 50px 5px;
+	font-size: 1.2em;
+}
+
+/* SPACE-DIV */
+.space-div {
+	height: 300px;
+}
+
+
+/* FOOTER */
+
+footer{ 
+  background: #343a40;
+  opacity: 0.8;
+}
+
+.ion-social-twitter, .ion-social-facebook, .ion-social-instagram {
+font-size: 22px;
+color: black;
+position: relative;
+/*left: 50vw;*/
+letter-spacing: 1em;
+text-align: center;
+}
