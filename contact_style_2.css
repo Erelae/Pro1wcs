@@ -1,0 +1,114 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+
+
+
+
+
+body {
+	background-image: url("http://www.carredu8eme.fr/wp-content/uploads/2017/12/pinel-paris.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+
+	
+}
+
+#background_opacity {
+position: fixed;
+z-index: -10;
+top: 0; left: 0; right: 0; bottom: 0;
+background-color: rgba(255, 255, 255, 0.6); /* L'opacite se regle ici */
+margin : 0;
+padding :0;
+}
+
+
+h1
+{
+font-family: 'Oswald', sans-serif;
+font-size: 16px;
+text-align: center;
+color: grey;	
+}
+
+.titre
+{
+	margin-bottom:200px;
+}
+
+
+
+.col-6 offset-3 {
+	background-color: transparent;
+}
+
+.page-footer{
+
+	background-color: #001A35;
+	margin-top: 20px;
+	
+}
+
+footer {
+	position:relative;
+	bottom: 0;
+	width: 100%;
+}
+
+
+/* NAVBAR */
+
+.nav-link {
+	font-size: 22px;
+	font-family: 'Bitter', serif;
+}
+
+nav  li{
+	background-color: white;
+	opacity: 1;
+
+}
+
+nav li a {
+	color: grey;
+	font-size: 14px;
+}
+
+nav{
+	background-color: white;
+	opacity: 0.8;
+}
+
+nav li:hover{
+	transition:0.3s;
+	color: pink;
+}
+
+nav li a:hover{
+	color: white;
+}
+
+
+
+
+label{
+	font-family: 'Oswald', sans-serif;
+	font-size: 16px;
+	padding-left : 5px;
+}
+
+form .btn-primary{
+	
+
+ }
+
+.btn{ 
+margin-bottom: 15px;
+border-radius: 5em;
+vertical-align: middle;
+padding:5px 5px;
+
+}
