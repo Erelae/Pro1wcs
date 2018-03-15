@@ -1,0 +1,121 @@
+body {
+	background-image: url("http://www.carredu8eme.fr/wp-content/uploads/2017/12/pinel-paris.jpg");
+	background-size: cover;
+	background-position: center center;
+	background-attachment: fixed;
+}
+
+
+#background_opacity {
+position: fixed;
+z-index: -10;
+top: 0; left: 0; right: 0; bottom: 0;
+background-color: rgba(255, 255, 255, 0.7); /* L'opacite se regle ici */
+margin : 0;
+padding :0;
+}
+
+
+.titre
+{
+font-family: 'Oswald', sans-serif;
+font-size: 32px;
+text-align: center;
+color: #606060;
+padding-top:100px;
+padding-bottom: 30px;	
+}
+
+
+/* NAVBAR */
+
+.nav-link {
+	font-size: 24px;
+	font-family: 'Bitter', serif;
+}
+
+nav  li{
+	background-color: white;
+	opacity: 1;
+}
+
+nav li a {
+	color: grey;
+	font-size: 14px;
+}
+
+nav{
+	background-color: white;
+	opacity: 0.7;
+}
+
+nav li a:hover{
+	color: white;
+}
+
+.sr-only{
+	color: #606060;
+}
+
+
+/* FORM */
+
+label{
+	font-family: 'Bitter', sans-serif;
+	font-size: 16px;
+	padding-left : 5px;
+}
+
+ 
+.btn 
+ {
+	margin-top:30px;
+	border-radius: 5em;
+	vertical-align: middle;
+	padding:5px 5px;
+}
+
+
+/* FOOTER */
+
+footer {
+	background-color: white;
+	opacity: 0.8;
+	position:absolute;
+	bottom:0;
+	width:100%;
+}
+
+footer p{
+	font-size: 12px;
+}
+
+
+.fa-facebook-f{
+	margin-right: 5px;
+}
+
+
+.fa-twitter{
+	margin-left: 15px;
+}
+
+.fa-instagram{
+	margin-left: 15px;
+}
+
+.fa-linkedin-in{
+	margin-left: 15px;
+}
+
+
+@media only screen and (max-width: 992px) {
+	form .btn{
+		font-size:0.9em;
+		padding: 3px;
+	}
+
+	nav{
+		background-color:unset;
+	}
+}
