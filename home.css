@@ -1,3 +1,7 @@
+* {
+	padding: 0;
+}
+
 body {
 	box-sizing: border-box;
 	margin: 0;
@@ -34,7 +38,7 @@ img {
 /* NAVBAR */
 
 .nav-link {
-	font-size: 22px;
+	font-size: 24px;
 	font-family: 'Bitter', serif;
 }
 
@@ -46,7 +50,6 @@ nav  li{
 
 nav li a {
 	color: grey;
-	font-size: 14px;
 }
 
 nav{
@@ -83,19 +86,39 @@ nav li a:hover{
 	height: 300px;
 }
 
+.space-div-two {
+	height: 60px;
+}
+
 
 /* FOOTER */
 
-footer{ 
-  background: #343a40;
-  opacity: 0.8;
+footer {
+	background-color: white;
+	opacity: 0.8;
+	position:absolute;
+	bottom:0;
+	width:100%;
 }
 
-.ion-social-twitter, .ion-social-facebook, .ion-social-instagram {
-font-size: 22px;
-color: black;
-position: relative;
-/*left: 50vw;*/
-letter-spacing: 1em;
-text-align: center;
+footer p{
+	font-size: 12px;
+}
+
+
+.fa-facebook-f{
+	margin-right: 5px;
+}
+
+
+.fa-twitter{
+	margin-left: 15px;
+}
+
+.fa-instagram{
+	margin-left: 15px;
+}
+
+.fa-linkedin-in{
+	margin-left: 15px;
 }
